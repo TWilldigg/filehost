@@ -1,23 +1,18 @@
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" href="css/style.css">
 <head>
-<title>Welcome to nginx!</title>
-<style>
-html { color-scheme: light dark; }
-body { width: 35em; margin: 0 auto;
-font-family: Tahoma, Verdana, Arial, sans-serif; }
-</style>
+<title>filehost</title>
 </head>
 <body>
-<h1>Welcome to nginx-kirb!</h1>
-<p>If you see this page, the nginx web server is successfully installed and
-working. YAY Further configuration is required.</p>
-
-<p>For online documentation and support please refer to
-<a href="http://nginx.org/">nginx.org</a>.<br/>
-Commercial support is available at
-<a href="http://nginx.com/">nginx.com</a>.</p>
-
-<p><em>Thank you for using nginx.</em></p>
+<h1>filehost</h1>
+<p>The lightweight & secure file hosting web service</p>
+<!-- Add a place to drop files -->
+<form>
+<input type="file" id="upload-input" name="files[]" multiple="" data-max-size="16991MiB">
+<input type="submit" value="Submit">
+</form>
+<p><sub>Source Code Project loosely based on my experience of the project nokonoko/Uguu </sub></p>
+<!-- Add hypertext once done -->
 </body>
 </html>
