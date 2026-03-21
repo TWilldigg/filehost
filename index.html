@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html>
-<link rel="stylesheet" href="css/style.css">
-<head>
-<title>filehost</title>
-</head>
-<body>
-<h1>filehost</h1>
-<p>The lightweight & secure file hosting web service</p>
-<!-- Add a place to drop files -->
-<form>
-<input type="file" id="upload-input" name="files[]" multiple="" data-max-size="16991MiB">
-<input type="submit" value="Submit">
-</form>
-<p><sub>Source Code Project loosely based on my experience of the project nokonoko/Uguu </sub></p>
-<!-- Add hypertext once done -->
-</body>
+	<link rel="stylesheet" href="css/style.css">
+	<head>
+		<title>filehost</title>
+	</head>
+	<body>
+		<h1>filehost</h1>
+			<p>The lightweight & secure file hosting web service</p>
+			<form action="upload.php" enctype="multipart/form-data" method="POST">
+				<input type="file" id="upload-input" name="files[]" multiple>
+				<input type="submit" value="Submit">
+			</form>
+			<p><sub>Source Code Project loosely based on my experience of the project nokonoko/Uguu </sub></p>
+			<!-- Add hypertext once done -->
+	</body>
 </html>
