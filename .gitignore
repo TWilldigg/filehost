@@ -1,2 +1,4 @@
 *.log
 *.env
+uploads/*
+!uploads/.gitkeep
