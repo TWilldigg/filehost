@@ -1,4 +1,5 @@
 <?php
+// Needs complete rework
 $debug = false;
 $uploadDir = __DIR__ . '/uploads/';
 $hashLogFile = __DIR__ . '/hashes';
