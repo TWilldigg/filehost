@@ -1,3 +1,4 @@
 html { color-scheme: light dark; }
 body { width: 35em; margin: 0 auto;
 font-family: Tahoma, Verdana, Arial, sans-serif; }
+footer { position: fixed; left: 0; bottom: 0; width:100%; text-align: center;}
